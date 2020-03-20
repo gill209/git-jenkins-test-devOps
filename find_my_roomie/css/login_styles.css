@@ -1,0 +1,161 @@
+/*
+ * v0.01
+ * Copyright 2016 FindMyRoomie
+ */
+
+video#homebkgdvid{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+a#logoimg{
+    position: relative;
+    float: left;
+    border-style: none;
+}
+
+label#appname{
+    position: relative;
+    margin-top: 10px;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+label#signupques{
+    position: relative;
+    margin-top: 10px;
+    color: rgba(255,255,255,1);
+    align-self: center;
+    font-size: 14px;
+}
+
+label#signuptext{
+    position: relative;
+    margin-top: 10px;
+    color: rgba(225,50,50,1);
+    align-self: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+label#signuptext:hover{
+    position: relative;
+    margin-top: 10px;
+    color: rgba(225,75,75,1);
+    align-self: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+h1#welcomelabel{
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #FFF;
+    position: relative;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+label#welcomestatementlabel{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+input[type=text]{
+    padding-left: 10px;
+    height: 35px;
+    position: relative;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(175,175,175,0.5);
+    background-color: white;
+    font-size: 15px;
+}
+
+input#inputtextbox1{
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+    color: #808080;
+    width: 250px;
+    margin-top: 40px;
+}
+
+input#inputtextbox2{
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+    color: #808080;
+    width: 250px;
+    margin-top: 10px;
+}
+
+button#loginbtn{
+    color: rgba(255,255,255,1);
+    background-color: rgba(225,50,50,0.7);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(225,50,50,0.5);
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    width: 262px;
+    margin-top: 10px;
+    position: relative;
+}
+
+button#loginbtn:hover {
+    color: rgba(255,255,255,1);
+    background-color: rgba(225,75,75,0.7);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(225,75,75,0.5);
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    width: 262px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.container-middle{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container-middle-out{
+    display: table;
+    width :100%;
+}
+
+.panel
+{
+    display: inline-block;
+    font-family: Arial, Verdana, Sans-serif;
+    font-size: 0px;
+    width: 350px;
+    height: 260px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.space
+{
+    margin-top: 10px;
+}
